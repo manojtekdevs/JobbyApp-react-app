@@ -206,7 +206,7 @@ class JobItemDetailsCards extends Component {
               className="icon"
               data-testid="searchButton"
             >
-              {''}<BsSearch className="search-icon" />
+              <BsSearch className="search-icon" aria-label="close" />
             </button>
           </div>
           {this.renderJobDetails()}
